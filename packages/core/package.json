@@ -1,6 +1,6 @@
 {
   "name": "@yiliu-cli-dev/core",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "zouming <zouming@yunshangnc.com>",
   "homepage": "https://github.com/zouxiaomingya/yiliu-cli-dev#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/zouxiaomingya/yiliu-cli-dev/issues"
   },
   "dependencies": {
-    "@yiliu-cli-dev/utils": "^1.0.1"
+    "@yiliu-cli-dev/utils": "^1.0.2"
   },
   "gitHead": "eb13dc195b9e09d51fda4415a73d1c5c9cf24bdb",
   "publishConfig": {
