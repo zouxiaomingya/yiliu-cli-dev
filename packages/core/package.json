@@ -29,5 +29,8 @@
   "dependencies": {
     "@yiliu-cli-dev/utils": "^1.0.1"
   },
-  "gitHead": "eb13dc195b9e09d51fda4415a73d1c5c9cf24bdb"
+  "gitHead": "eb13dc195b9e09d51fda4415a73d1c5c9cf24bdb",
+  "publishConfig": {
+    "access": "public"
+  }
 }
