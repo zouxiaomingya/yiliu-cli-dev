@@ -1,17 +1,4 @@
-0 silly argv {
-0 silly argv   _: [ 'link' ],
-0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js'
-0 silly argv }
-1 notice cli v4.0.0
-2 verbose rootPath E:\my_project\yiliu-cli-dev
-3 error Error: Invalid package name "@yiliu-cli-dev": name can only contain URL-friendly characters
-3 error     at invalidPackageName (E:\my_project\yiliu-cli-dev\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:84:15)
-3 error     at Result.setName (E:\my_project\yiliu-cli-dev\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:119:11)
-3 error     at new Result (E:\my_project\yiliu-cli-dev\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:110:10)
-3 error     at Function.resolve (E:\my_project\yiliu-cli-dev\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:54:15)
-3 error     at E:\my_project\yiliu-cli-dev\node_modules\_@lerna_package-graph@4.0.0@@lerna\package-graph\index.js:66:30
-3 error     at Array.forEach (<anonymous>)
-3 error     at E:\my_project\yiliu-cli-dev\node_modules\_@lerna_package-graph@4.0.0@@lerna\package-graph\index.js:60:38
-3 error     at Map.forEach (<anonymous>)
-3 error     at new PackageGraph (E:\my_project\yiliu-cli-dev\node_modules\_@lerna_package-graph@4.0.0@@lerna\package-graph\index.js:49:10)
+40 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+40 error fatal: unable to access 'https://github.com/zouxiaomingya/yiliu-cli-dev.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+40 error     at makeError (E:\my_project\yiliu-cli-dev\node_modules\_execa@5.1.1@execa\lib\error.js:60:11)
+40 error     at handlePromise (E:\my_project\yiliu-cli-dev\node_modules\_execa@5.1.1@execa\index.js:118:26)
